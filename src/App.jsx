@@ -42,7 +42,7 @@ function App() {
           </p>
           <div>
             <a href="https://app.aave.com/" className="GetStartedbutton">
-              Get Started{" "}
+              Get Started
               <svg
                 className="arrow_right"
                 width={11}
