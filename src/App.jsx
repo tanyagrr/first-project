@@ -17,7 +17,7 @@ function App() {
             <div className="IntroducingFeature">Introducing our latest feature</div>
             <div className="small_dot" />
             <div className="ReadMore">
-              Read more{" "}
+              Read more
               <svg
                 className="arrow_right"
                 width={11}
