@@ -76,7 +76,7 @@ function App() {
           <div className="cone green" />
           <div className="cone dark_blue" />
           <div className="cone red" />
-          <div className="cone purple" />
+          {/*<div className="cone purple" />*/}
         </div>
         <div className="bottomline" />
       </>
