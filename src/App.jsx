@@ -64,7 +64,6 @@ function App() {
           <div className="BottomText">
             <div className="dot" />
             <p className="Add">
-              {" "}
               <span className="Add1">20+ templates</span> to make teaching and
               learning easier.
             </p>
