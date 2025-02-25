@@ -69,14 +69,14 @@ function App() {
             </p>
           </div>
         </div>
-        <div className="illustration">
+        {/*<div className="illustration">
           <div className="cone light_blue" />
           <div className="cone yellow" />
           <div className="cone green" />
           <div className="cone dark_blue" />
           <div className="cone red" />
           <div className="cone purple" />
-        </div>
+        </div>*/}
         <div className="bottomline" />
       </>
     </>
