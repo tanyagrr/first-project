@@ -7,8 +7,9 @@ function Illustration() {
             <div className="cone dark_blue" />
             <div className="cone red" />
             <div className="cone purple" />
+            <div className="bottomline" />
         </div>
     )
 }
 
-export default Illustartion;
+export default Illustration;

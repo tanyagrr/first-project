@@ -66,9 +66,9 @@ function App() {
         </div>
       </div>
       <div><Illustration /></div>
-      <div className="bottomline" />
     </>
   )
 }
+
 
 export default App
