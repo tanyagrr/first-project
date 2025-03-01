@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Illustration from "./components/Illustration"
 
 function App() {
 
@@ -64,14 +65,7 @@ function App() {
           </p>
         </div>
       </div>
-      <div className="illustration">
-        <div className="cone light_blue" />
-        <div className="cone yellow" />
-        <div className="cone green" />
-        <div className="cone dark_blue" />
-        <div className="cone red" />
-        <div className="cone purple" />
-      </div>
+      <div><Illustration /></div>
       <div className="bottomline" />
     </>
   )
