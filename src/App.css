@@ -142,7 +142,6 @@ a {
 .illustration {
   margin-left: 260px;
   margin-top: -50px;
-  margin-bottom: 10px;
   display: flex;
   align-items: flex-end;
   gap: .2rem;
@@ -188,6 +187,7 @@ a {
   height: 4px;
   width: 1110px;
   margin-left: 220px;
+  margin-bottom: 20px;
   border: none;
   background: linear-gradient(90deg,
       #39d1fa,
