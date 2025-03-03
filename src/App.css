@@ -141,7 +141,8 @@ a {
 /* Illustration */
 .illustration {
   margin-left: 260px;
-  margin-top: 0px;
+  margin-top: -50px;
+  margin-bottom: 10px;
   display: flex;
   align-items: flex-end;
   gap: .2rem;
