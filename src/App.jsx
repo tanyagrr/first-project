@@ -1,16 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Illustration from "./components/Illustration"
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import Illustration from "./components/Illustration";
+import Header from "./components/Header";
 
 function App() {
-
   return (
     <>
+      <Header />
       <div className="block1">
         <a href="https://aave.com/brand" className="Announcement_text">
-          <div className="IntroducingFeature">Introducing our latest feature</div>
+          <div className="IntroducingFeature">
+            Introducing our latest feature
+          </div>
           <div className="small_dot" />
           <div className="ReadMore">
             Read more
@@ -20,7 +23,8 @@ function App() {
               height={10}
               viewBox="0 0 11 10"
               fill="none"
-              xmlns="http://www.w3.org/2000/svg">
+              xmlns="http://www.w3.org/2000/svg"
+            >
               <path
                 d="M1 5H9.94444M9.94444 5L6.44444 1.5M9.94444 5L6.44444 8.5"
                 stroke="currentColor"
@@ -33,8 +37,8 @@ function App() {
         </a>
         <h1>Access the full power of learning.</h1>
         <p className="Intro">
-          Learn It! is an engaging learning platform. <br /> Flashcards, quizzes,
-          games and much more.
+          Learn It! is an engaging learning platform. <br /> Flashcards,
+          quizzes, games and much more.
         </p>
         <div>
           <a href="https://app.aave.com/" className="GetStartedbutton">
@@ -65,10 +69,11 @@ function App() {
           </p>
         </div>
       </div>
-      <div><Illustration /></div>
+      <div>
+        <Illustration />
+      </div>
     </>
-  )
+  );
 }
 
-
-export default App
+export default App;
