@@ -1,14 +1,29 @@
 function Illustration() {
-    return (
-        <><div className="illustration">
-            <div className="cone light_blue" />
-            <div className="cone yellow" />
-            <div className="cone green" />
-            <div className="cone dark_blue" />
-            <div className="cone red" />
-            <div className="cone purple" />
-        </div><div className="bottomline" /></>
-    )
+  return (
+    <>
+      <div className="illustration">
+        <div>
+          <div className="cone light_blue" />
+        </div>
+        <div>
+          <div className="cone yellow" />
+        </div>
+        <div>
+          <div className="cone green" />
+        </div>
+        <div>
+          <div className="cone dark_blue" />
+        </div>
+        <div>
+          <div className="cone red" />
+        </div>
+        <div>
+          <div className="cone purple" />
+        </div>
+      </div>
+      <div className="bottomline"></div>
+    </>
+  );
 }
 
 export default Illustration;
