@@ -256,7 +256,8 @@ a {
 }
 
 @media only screen 
-  and (max-device-width: 720px) {
+  and (max-device-width: 720px)
+  and (-webkit-min-device-pixel-ratio: 2) {
     .body {
       width: 90%;
       margin-left: auto;
