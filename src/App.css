@@ -255,7 +255,7 @@ a {
       #9896ff)
 }
 
-@media only screen 
+@media screen 
   and (max-device-width: 1024px)
   and (orientation: portrait) {
     header, .block1, .illustration, .bottomline {
