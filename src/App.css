@@ -256,7 +256,7 @@ a {
 }
 
 @media only screen 
-  and (max-device-width: 480px) {
+  and (max-device-width: 1024px) {
     header, .block1, .illustration, .bottomline {
       width: 90%;
       margin-left: auto;
