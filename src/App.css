@@ -10,14 +10,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
-  margin-bottom: -30px;
-  margin-left: 200px;
+  padding-top: 30px;
+  width: 986px;
+  margin-left: 250px;
   position: sticky;
   top: 0;
   z-index: 100;
   background-color: white;
-  box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+  box-shadow: 0 .5px 0 rgba(0,0,0,0.1);
 }
 
 .header-elements {
@@ -44,16 +44,25 @@ header {
    color: #4b4b4b;
 }
 
-nav input {
-  height: 20px;
-  width: 100px;
-  margin-left: 20px;
+.search-button {
+  background-color: black;
+  width: 20px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 10px;
   margin-right: 10px;
 }
 
+header svg {
+  position: relative;
+  right: 8px;
+  bottom: 4px;
+}
+
 .block1 {
-  margin-left: 200px;
-  margin-top: 80px;
+  margin-left: 250px;
+  margin-top: 60px;
+  width: 986px;
   display: flex;
   flex-direction: column;
 }
@@ -184,10 +193,12 @@ a {
   gap: 0.5em;
 }
 
-/* Illustration */
+/* ILLUSTRATION */
+
 .illustration {
   margin-left: 260px;
   margin-top: -50px;
+  width: 986px;
   display: flex;
   align-items: flex-end;
   gap: .2rem;
