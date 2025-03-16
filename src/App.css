@@ -256,7 +256,8 @@ a {
 }
 
 @media only screen 
-  and (max-device-width: 1024px) {
+  and (max-device-width: 1024px)
+  and (orientation: portrait) {
     header, .block1, .illustration, .bottomline {
       width: 90%;
       margin-left: auto;
