@@ -255,9 +255,9 @@ a {
       #9896ff)
 }
 
-@media screen 
-  and (max-device-width: 1024px)
-  and (orientation: portrait) {
+@media only screen 
+and (min-width: 480px)
+and (max-width: 768px)  {
     header, .block1, .illustration, .bottomline {
       width: 90%;
       margin-left: auto;
