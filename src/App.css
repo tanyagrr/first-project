@@ -262,7 +262,7 @@ and (max-width: 480px)  {
       width: 470px;
     }
     .block1 {
-      margin-left: auto;
+      margin-left: 10px;
       margin-right: auto;
     }
 }
