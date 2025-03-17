@@ -11,7 +11,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding-top: 30px;
-  width: 986px;
+  max-width: 986px;
   margin-left: 250px;
   position: sticky;
   top: 0;
@@ -62,7 +62,7 @@ header svg {
 .block1 {
   margin-left: 250px;
   margin-top: 40px;
-  width: 986px;
+  max-width: 986px;
   display: flex;
   flex-direction: column;
 }
@@ -255,11 +255,11 @@ a {
       #9896ff)
 }
 
-@media only screen 
-and (min-width: 480px)
-and (max-width: 768px)  {
-    body, header, .block1, .illustration, .bottomline {
-      width: 90%;
+@media screen 
+and (min-width: 320px)
+and (max-width: 480px)  {
+    header, .block1, .illustration, .bottomline {
+      width: 470px;
       margin-left: auto;
       margin-right: auto;
     }
