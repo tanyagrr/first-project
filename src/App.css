@@ -258,10 +258,11 @@ a {
 @media screen 
 and (min-width: 320px) 
 and (max-width: 480px)  {
-    header, .block1, .illustration, .bottomline {
+    header, .illustration, .bottomline {
       width: 470px;
     }
     .block1 {
+      width: 470px;
       margin-left: 10px;
       margin-right: auto;
     }
