@@ -255,7 +255,7 @@ a {
       #9896ff)
 }
 
-/* @media screen 
+@media screen 
 and (min-width: 320px) 
 and (max-width: 480px)  {
     header, .block1, .illustration, .bottomline {
@@ -263,4 +263,4 @@ and (max-width: 480px)  {
       margin-left: auto;
       margin-right: auto;
     }
-} */
+}
