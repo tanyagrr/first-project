@@ -281,9 +281,9 @@ and (max-width: 480px)  {
       margin-left: 15px;
     }
     .circle {
-      transform: scale(1.5);
+      transform: scale(2);
       position: relative;
-      left: 25px;
+      left: 20px;
       top: 35px;
     }
 }
