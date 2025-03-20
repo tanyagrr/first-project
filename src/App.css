@@ -284,6 +284,6 @@ and (max-width: 480px)  {
       transform: scale(2);
       position: relative;
       left: 20px;
-      top: 45px;
+      top: 50px;
     }
 }
