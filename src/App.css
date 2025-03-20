@@ -33,6 +33,7 @@ header {
   padding: 10px;
   font-size: 1.1rem;
   font-weight: 700;
+  color:rgb(0, 0, 0);
 }
 
 .header-elements a,
@@ -40,6 +41,7 @@ header {
 .header-elements a:active {
   padding: 10px;
   color: black;
+  font-size: 14px;
 }
 
 .header-elements a:hover {
@@ -48,7 +50,7 @@ header {
 
 .search-button {
   background-color: black;
-  width: 20px;
+  width: 30px;
   height: 30px;
   border-radius: 50%;
   margin-left: 10px;
