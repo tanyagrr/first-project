@@ -270,10 +270,11 @@ and (max-width: 480px)  {
     }
     .illustration {
       margin-top: -30px;
-      margin-right: 10px;
-      margin-left: 15px;
+      margin-left: auto;
+      margin-right: auto;
     }
     .bottomline {
-      margin-left: 15px;
+      margin-left: auto;
+      margin-right: auto;
     }
 }
