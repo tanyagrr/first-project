@@ -273,4 +273,7 @@ and (max-width: 480px)  {
       margin-right: 10px;
       margin-left: 15px;
     }
+    .BottomText {
+      max-width: 250px;
+    }
 }
