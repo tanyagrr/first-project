@@ -40,6 +40,7 @@ function Circle({ color }) {
   console.log(color);
   return (
     <svg
+      className="circle"
       width="40"
       height="40"
       viewBox="0 0 40 40"

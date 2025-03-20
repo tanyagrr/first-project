@@ -242,6 +242,13 @@ a {
   height: 300px;
 }
 
+.circle {
+  transform: scale(3.8);
+  position: relative;
+  left: 55px;
+  top: 75px;
+}
+
 .bottomline {
   height: 4px;
   margin-bottom: 200px;
@@ -273,7 +280,10 @@ and (max-width: 480px)  {
       margin-right: 10px;
       margin-left: 15px;
     }
-    /* .Add1 {
-      max-width: 20px;
-    } */
+    .circle {
+      transform: scale(2);
+      position: relative;
+      left: 25px;
+      top: 35px;
+    }
 }
