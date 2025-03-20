@@ -267,4 +267,8 @@ and (max-width: 480px)  {
     .cone {
       width: 75px;
     }
+    .illustration {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
 }
