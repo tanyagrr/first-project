@@ -269,9 +269,9 @@ and (max-width: 480px)  {
       width: 75px;
     }
     .illustration {
-      margin-top: -10px;
-      margin-left: auto;
-      margin-right: auto;
+      margin-top: -30px;
+      margin-right: 10px;
+      margin-left: 15px;
     }
     /* .bottomline {
       margin-left: auto;
