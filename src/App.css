@@ -207,7 +207,7 @@ a {
 }
 
 .cone {
-  width: 155px;
+  width: 9.5rem;
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
 }
@@ -266,7 +266,7 @@ and (max-width: 480px)  {
       padding-right: 10px;
     }
     .cone {
-      width: 75px;
+      width: 4.5rem;
     }
     .illustration {
       margin-top: -30px;
