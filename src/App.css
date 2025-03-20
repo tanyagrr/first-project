@@ -259,7 +259,7 @@ a {
 @media screen 
 and (min-width: 320px) 
 and (max-width: 480px)  {
-    header, .block1, .illustration, .bottomline {
+    body {
       max-width: 470px;
       margin-left: auto;
       margin-right: auto;
