@@ -42,6 +42,7 @@ header {
   padding: 10px;
   color: black;
   font-size: 14px;
+  transition: all .1s ease;
 }
 
 .header-elements a:hover {
@@ -56,6 +57,7 @@ header {
   margin-left: 10px;
   margin-right: 10px;
   border: none;
+  transition: all .1s ease;
 }
 
 .search-button:hover {
