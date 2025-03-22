@@ -58,6 +58,10 @@ header {
   border: none;
 }
 
+.search-button:hover {
+  background-color: #4b4b4b;
+}
+
 header svg {
   display: flex;
   justify-content: center;
@@ -218,39 +222,39 @@ a {
 
 .light_blue {
   background-color: #d9f7ff;
-  height: 150px;
+  height: 10rem;
 }
 
 .yellow {
   background-color: #fff7a5;
-  height: 160px;
+  height: 10rem;
 }
 
 .green {
   background-color: #83eee8;
-  height: 180px;
+  height: 11.5rem;
 }
 
 .dark_blue {
   background-color: #96e9ff;
-  height: 200px;
+  height: 13rem;
 }
 
 .red {
   background-color: #ffc38b;
-  height: 250px;
+  height: 16.5rem;
 }
 
 .purple {
   background-color: #e2e0ff;
-  height: 300px;
+  height: 20rem;
 }
 
 .circle {
   transform: scale(3.8);
   position: relative;
   left: 55px;
-  top: 75px;
+  top: 85px;
 }
 
 .bottomline {
